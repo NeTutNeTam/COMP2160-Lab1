@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Iurii Shamkin - Lab1</string>
 
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="app_label">Unit Converter</string>
+    <string name="equal">=</string>
+    <string name="fuelcons">Fuel consumption</string>
+    <string name="kmliter">Km/Liter</string>
+    <string name="mpgus">MPG (US)</string>
+    <string name="button_label">Convert</string>
+
 </resources>
