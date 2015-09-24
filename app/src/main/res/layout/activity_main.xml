@@ -30,7 +30,8 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="20dp"
+        android:background="#5bc3ff">
 
         <TextView
             android:layout_width="wrap_content"
@@ -55,7 +56,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:weightSum="1"
-        android:layout_marginTop="30sp">
+        android:layout_marginTop="30sp"
+        android:background="#d3ff54">
 
         <TextView
             android:layout_width="wrap_content"
