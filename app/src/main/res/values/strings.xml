@@ -8,5 +8,7 @@
     <string name="kmliter">Km/Liter</string>
     <string name="mpgus">MPG (US)</string>
     <string name="button_label">Convert</string>
+    <string name="kmlhint">Kilometers Per Liter</string>
+    <string name="mpghint">Miles Per Gallon</string>
 
 </resources>

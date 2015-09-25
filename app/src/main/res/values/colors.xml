@@ -9,4 +9,8 @@
     <color name ="green">#00ff99</color>
     <color name ="blue">#66ccff</color>
 
+    <color name ="background">#B2EBF2</color>
+    <color name="button">#FFAB91</color>
+    <color name="text">#80DEEA</color>
+
 </resources>
