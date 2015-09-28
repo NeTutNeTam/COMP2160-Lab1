@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     String result;        //result of conversion
     Double conv_value;    //entered data
     Button buttonConvert; //conversion button
+    LinearLayout layout;
 
 
     @Override
@@ -27,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         buttonConvert = (Button)findViewById(R.id.button01); //initializing button
         kml = (EditText)findViewById(R.id.editText01); //initializing first input field
         mpg = (EditText)findViewById(R.id.editText02); //initializing second input field
+        layout = (LinearLayout)findViewById(R.id.main_layout);
 
         kml.addTextChangedListener(new TextWatcher() {  //assigning listener to the first input so
                                                         //user will be aware of exceeded input length
@@ -121,8 +124,8 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.theme1) {
+            Toast.makeText(getApplicationContext(), "Menu selected", Toast.LENGTH_SHORT).show();
         }
 
         return super.onOptionsItemSelected(item);
